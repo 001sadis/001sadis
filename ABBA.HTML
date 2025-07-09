@@ -1,0 +1,176 @@
+<head><link rel="shortcut icon" href="images/home.png">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="fa/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/css/natex.css" rel="stylesheet">
+<link href="fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<style>
+body{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	
+	
+	
+}
+ol {
+    background: #ff9999;
+    padding: 20px;
+}
+ul {
+    background: #ff9999;
+    padding: 20px;
+}
+
+	ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+ul li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+
+</style>
+<title>SADISU MUSTAPHA Talata-Mafara</title>
+<style type="text/css">.fancybox-margin{margin-right:17px;}</style></head>
+
+<body>
+<div class="header"> 
+<div id="titil"><img src="images/titil.png"></div>
+</div><br>
+<div class="row">
+<div class="col-md-2"></div>
+<div class="col-md-7">
+<h1 class="text-danger" align="center">ENLIGHTMENT</h1>
+<ul>
+<li><strong>The admission forms are available in all OPAY Bank Nationwide.</strong></li>
+<li> Applicants are hereby imformed that they <strong>MUST</strong> obtain <strong>JAMB Form</strong> and <strong>MUST</strong> select <strong>Abdu Gusau Polytechnic</strong> as their <strong>FIRST CHOICE</strong> before their admission can be processed.</li>
+</ul>
+<h1 class="text-danger" align="center">ENTRY REQUIREMENT</h1>
+<ul>
+<li> <strong>PRE-ND programmes, </strong>candidates should obtain at least four (4) passes in relevant areas including English and Mathematics. The courses offered are:- PRE-ND Business, PRE-ND OTM, PRE-ND Science, PRE-ND Finance, PRE-ND Engineering.</li>
+<li><strong>ND programmes, </strong>candidate must have at least five (5) credits in GCE O’level or its equivalent in not more than two (2) sittings. They should also obtain JAMB scores with aggregate minimum points.The courses offered are:-  ND Business, ND Office Technology Management, ND Mass Communication, ND Banking&amp; Finance, ND Accounting, ND Science Laborotary Technology, ND Computer Science, ND Computer Engineering, Statistics, Architecture, Mechanical Engineering,ND Civil Engineering, ND Building engineering, ND Quantity survey, ND Electrical Engineering, ND Mechatronic, ND Library Science, Diploma In Civil Law, Diploma in Sharia &amp; Civil Law. </li>
+
+<li><strong>HND programmes, </strong>candidate should obtain the above requirements plus a National Diploma Certificate.The courses offered are:- HND Business,HND Office Technology Management, HND Accounting, Applied Science:(HND Microbiology, HND Biochemistry, HND Environmental, HND PHYSICS),HND Computer Science, HND Statistics, Higher Diploma in Arabic and Islamic Sharia, HND Artificial Intelligence Technology, HND Computer Networks and Cloud Computing Technology, HND Cybersecurity Technology, HND Software and Web Development, HND Mass Communications (Film and Multimedia Production), HND Mass Communications (Strategic Communications and Media Studies), HND Mass Communications (Journalism Broadcast and Digital Journalism), HND Mass Communications (Media Production Encompassing Print).
+ </li>
+</ul>
+<h1 class="text-danger" align="center">INSTRUCTIONS FOR FILLING THE FORM</h1>
+<ol>
+<li>Click on <strong>Apply for admission</strong> By the right hand side of the screen </li>
+<li>Enter the <strong>CONFIRMATION ORDER#</strong> printed on the payment Receipt you obtained from the bank   in the box provided</li>
+<li>Click on <strong>VERIFY</strong> to verify your payment</li>
+<li>If your Payment is successfully verified, You will <strong>AUTOMATICALLY</strong> be logged  into your account</li>
+<li>Click on <strong>CONTINUE APPLICATION</strong> to load your BIODATA FORM</li>
+<li>Fill-in the form displayed and click on <strong>SAVE BIODATA</strong></li>
+<li>Click on <strong>SCHOOL/INSTITUTION</strong> at the top of the form</li>
+<li>Fill-in the form displayed and click on <strong>SAVE SCHOOLS</strong></li>
+<li> Click on <strong>NEXT OF KIN/SPONSOR</strong> at the top of the form</li>
+<li>Fill-in the form and click on <strong>SAVE RELATIONS</strong></li>
+<li>Click on <strong>UPLOAD IMAGE</strong> at the top of the form</li>
+<li>Select and upload your scanned passport photograph and click on  <strong>SAVE IMAGE</strong></li>
+<li>Click on <strong>PRINT MY FORM</strong> at the top of the form</li>
+<li> Print a copy of the <strong>FORM</strong> and keep for a record</li>
+</ol>
+<br>
+<h1 class="text-danger" align="center">IMPORTANT NOTICE</h1>
+<ul>
+<li> Make sure that you print a copy of your form as without doing so, your application will remain incomplete</li>
+<li> The <strong>RECEIPT NUMBER#</strong> Provided on the <strong>PAYMENT RECEIPT</strong> You obtained from the bank will be your <strong>USERNAME</strong> and <strong>PASSWORD</strong> (You can change your <strong>PASSWORD</strong> when you logged in) </li>
+</ul>
+
+<!--<p id ="response" align="center">
+</p>-->
+</div>
+<div class=" col-md-4 loginDiv large_radius">
+<p id="response">
+</p>
+<form id="login" name="login" action="">
+<div>Member Login</div>
+<div>Username</div>
+<div><input name="myusername" type="text" id="myusername" required=""></div>
+<div>Password</div>
+<div><input name="mypassword" type="password" id="mypassword" required=""></div><br>
+<div class="row"> 
+<div class="col-sm-4"><input type="button" class="btn btn-default" id="submit" name="submit" value="SUBMIT" onclick="authentic"></div>
+</div><br>
+<!---<div class="row">
+    <div id="thumb" class="col col-md-12">
+    <a href="formpament/index.php"><b><p style="background-color:#F00; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:18px; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; text-align:center">
+    Apply for admission</p></b></a> </div>
+    <div id="thumb" class="col col-md-12">
+    <a href="create_account.php"><b><p style="background-color:#F00; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:18px; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; text-align:center">
+    Apply for PG admission</p></b></a> </div>
+</div>
+
+<div class="row">
+<div id="thumb" class="col col-md-12">
+    <a href="formpament/create_account_pg.php"><b><p style="background-color:#F00; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:18px; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; text-align:center">
+    Verify payment of PG Form</p></b></a> </div>
+</div>--->  
+
+
+<!--<div id="thumb" class="col col-md-12">
+    <a href="formpayment/index.php"><b><p style="background-color:#F00; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:18px; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; text-align:center">
+    Apply for Admission 2023/2024 Session </p></b></a> </div>
+ 
+  
+  <div class="row">
+<div id="thumb" class="col col-md-12">
+    <a href="formpayment/create_account.php"><b><p style="background-color:#F00; color:#FFFFFF; font-RED:GEEN, PINK, sans-serif; font-size:18px; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; text-align:center">
+    Verify payment of Form</p></b></a> </div>
+</div> -->
+  
+    
+ <div class="row">
+<div id="thumb" class="col col-md-12">
+<a href="agpjournal/index.html"><b><p style="background-color:#F00; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:18px; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; text-align:center">
+</p></b></a> </div>
+						</div>
+<div class="row">
+<div id="thumb" class="col col-md-12">
+<a href="pg/pg-requirement.jpeg"><b><p style="background-color:#F00; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:18px; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; text-align:center">
+Read PG Admission Requirements</p></b></a> </div>
+						</div>						
+</form>
+ </div>
+</div>
+
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
+<script>
+function authentic(){
+	var ds = $('#login').serialize();
+	//alert(ds); 
+$.ajax({ 
+    		type: "POST",
+			url: "authenticate.php",
+			data: ds,
+			dataType: 'html',
+        	success: function(msg){ 
+			var result = $.trim(msg);
+			if(result === "1"){
+			$("#response").html("<span class='alert alert-danger'>Your login details have been change from your application number to your admission number</span>");
+			}else if(result === "failed"){
+					$("#response").html("<span class='alert alert-danger'> username/password</span>");
+							}else{
+									$(location).attr("href", result);
+							}
+ 		      		},
+					error: function(){
+						$("#response").html(result);
+					}
+      		});	
+}
+
+
+</script>			
+
+
+
+
+</body>
